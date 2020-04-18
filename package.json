@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "server": "nodemon ./bin/www",
-    "client": "PORT=3002 npm start --prefix client",
+    "client": "PORT=3002 node ./bin/www --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\" "
   },
   "dependencies": {
